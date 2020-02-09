@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+}
+html,body{
+    height: 100%;
+}
+/*classes auxiliares*/
+.container{
+    width: 100%;
+    padding: 0 2%;
+}
+.w50{
+    width: 50%;
+    float: left;
+}
+.w33{
+    width: 33.3%;
+    float: left;
+}
+.w100{
+    width: 100%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+/*header*/
+header{
+    
+    padding: 15px;
+}
+header div.logo{
+    width: 30%;
+    float: left;
+}
+header div#logo{
+    background-image: url('../img/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 250px;    
+        
+}
+nav.menu-mobile{
+    display: none;
+}
+nav.menu-mobile h2{
+    display: none;
+} 
+nav.menu-mobile ul{
+    display: none;
+} 
+div.espaco{
+    width: 80%;
+}
+nav.menu-mobile ul{
+    width: 20%;
+    margin-top: 20px; 
+}
+nav.menu-mobile h2{ 
+ color: #b4b4b4;
+ width:100%;
+ 
+}
+nav.menu-mobile i{
+    float: right;    
+}
+nav.menu-mobile a{
+    text-decoration: none;
+    color: #b4b4b4;
+    margin-top: 20px;
+}
+nav.menu-mobile li{
+    display: block;
+    padding: 10px;
+    
+}
+nav.menu-desktop{
+    padding-top: 15px;    
+}
+.menu-desktop a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #b4b4b4;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+/*section mosaico*/
+section.mosaico{
+    padding: 10px 0;   
+}
+div.mosaico-single{
+    height: 200px;    
+}
+div.img-mosaico{
+    background-color:#b4b4b4;
+    height: 90%;
+    width: 95%;
+    margin: 3px solid white;
+}
+/*section serviços*/
+section.servico{
+    padding: 0 5%;
+}
+div.conteudo{
+    
+    
+    background-color: #576975;
+    color: white;
+   padding: 10px 0;
+}
+div.conteudo div.icon{
+    background-image: url('../img/icone_dente.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20x;
+    margin-top: 3px;
+}
+div.conteudo h2{
+    text-align: center;
+    padding: 5px 0;
+}
+div.conteudo p{
+    padding: 0px 10%;
+}
+div.meio{
+    margin-top: -30px;
+    padding: 30px 0;
+    background-color:#688293;
+    color: white;
+    
+}
+div.meio h2{
+    text-align: center;
+    padding: 15px 0;
+}
+div.meio p{
+    padding: 5px 10%;
+}
+/*section sobre*/
+section.sobre{
+    padding: 50px 10%;
+    
+}
+
+.conteudo-sobre img{
+    width: 300px;
+    height: 400px;
+   float: left;
+}
+.conteudo-sobre{
+    width: 100%;
+    
+    padding: 5px 0% 5px 0%;
+}
+.conteudo-sobre h2{
+ text-align: left;
+ color: #698293;
+ margin-top: 20px;
+ font-size: 20px;
+ width: calc(100% - 300px);
+float: left;
+padding: 10px;
+}
+.conteudo-sobre p{
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 14px;
+    width: calc(100% - 310px);
+    float: left;
+    padding: 10px;
+    max-width: 600px;
+}
+/*section video*/
+.box-single iframe{
+    width: 100%;
+    border: 5px solid white;
+    height: 300px;
+}
+/*section tratamento*/
+section.tratamento{
+    padding: 100px;
+    
+}
+.title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #698293;
+}
+.box-servico{
+padding: 20px;
+color: #b4b4b4;
+}
+.box-servico h2{
+    font-size: 18px;
+    text-align: center;
+    color: #918c8c;
+    
+}
+.box-servico p{
+    font-size: 14px;
+    text-align: justify;
+    
+}
+/*section depoimento*/
+
+.texto-depoimento h2{
+    font-size: 13px;
+    display: inline-block;
+    padding-bottom: 100px;
+}
+.texto-depoimento p{
+   
+    font-size: 16px;
+    text-align: center;
+    color: #b4b4b4;
+    padding: 0 30%;
+}
+div.circulo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: gray;
+    background-image: url('../img/depoimento1.png');
+}
+.imagem-circle{
+    margin: 5px 40%;
+}
+/*section rede-social*/
+section.rede-social .container{
+    padding: 0;
+}
+section.rede-social p{
+    text-align: center;
+    font-size: 14px;
+}
+div.instagram{
+    padding: 30px 35%;
+    background-color: #98a5ae;
+    color: white;
+}
+div.instagram img{
+    margin: 0 50%;
+}
+div.galeria-single{
+    width: calc(100% / 9);
+    background: gray;
+    height: 150px;
+    float: left;
+    border: 3px solid white;
+}
+div.face{
+    padding: 30px 35%;
+    background-color: #576975;
+    color: white;
+}
+div.face img{
+    margin: 0 50%;
+}
+/*section form*/
+.title1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #698293;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    color: #b4b4b4;
+}
+form p{
+    margin: 0 5px;
+}
+form input {
+    padding: 5px;
+    width: 100%;
+    margin: 10px 5px;
+    color: #b4b4b4;
+}
+form div.w50{
+    width: 49%;
+}
+form div.w50 input[type=text]{
+    margin-left:15px ;
+}
+form p#tel{
+    margin-left: 15px;
+}
+form textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px 5px;
+    resize: none;
+}
+form input[type=submit]{
+    width: 80px;
+    background-color: #688293;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 30px 45% 50px 45%;
+}
+/*footer*/
+footer{
+    padding: 30px;
+    background-color: #576975;
+}
+footer h2{
+    font-size: 16px;
+    color: white;
+}
+footer p{
+    font-size: 14px;
+    color: white;
+}
+footer.container{
+    background-color: #576975;
+}
+@media screen and (max-width:900px){
+    .menu-desktop{
+        display: none;
+    }
+    nav.menu-mobile{
+        display: block;
+    }
+    nav.menu-mobile h2{
+        display: block;
+    } 
+    div.mosaico-single{
+        height: 200px;  
+        width: calc(100% / 3);  
+    }
+    .w50{
+        width: 100%;
+    }
+    div.conteudo div.icon{
+        width: 10px;
+        height: 10px;
+        margin: 0 auto;
+    }
+    section.sobre{
+        margin: 50px 2%;
+        
+    }
+
+    @media screen and (max-width:720px){     
+        div.espaco{
+            width: 60%;
+        }
+        nav.menu-mobile ul{
+            width: 30%;
+            
+        }
+        .w33{
+            width: 100%;
+        }        
+        section.sobre{
+            margin: 0 ;
+            
+        }
+        
+        .conteudo-sobre h2, .conteudo-sobre p {
+            width: 100%;
+            padding: 0 2%;
+        }
+        
+        div.meio{
+            margin-top: 0px;
+           
+            padding: 0;
+            
+        }
+        
+    }
+    @media screen and (max-width:550px){
+        div.espaco{
+            width: 0;
+        }
+        nav.menu-mobile ul{
+            width: 100%;
+            
+        }
+        form{
+            width: 100%;
+        }
+        footer{
+            text-align: center;
+        }
+        footer div{
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}
